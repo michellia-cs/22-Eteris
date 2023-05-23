@@ -167,6 +167,15 @@ section{
     text-decoration: underline;
 }
 
+footer{
+	border:1rem;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: var(--yellow);
+    text-align: center;
+}
+
 .footer .grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
@@ -181,7 +190,7 @@ section{
 }
 
 .footer .grid .box img{
-    height: 10rem;
+    height: 5rem;
     margin-bottom: 1rem;
 }
 
@@ -203,16 +212,17 @@ section{
     text-decoration: underline;
 }
 
-.credits{
-    padding: 2rem;
-    text-align: center;
-    background-color: var(--black);
-    color: var(--white);
-    font-size: 2rem;
+.footer .credit{
+   background-color: var(--black);
+   text-align: center;
+   padding:3rem 2rem;
+   font-size: 2rem;
+   color:var(--white);
+   /* padding-bottom: 10rem; */
 }
 
-.credits span{
-    color: var(--yellow);
+.footer .credit span{
+   color:var(--yellow);
 }
 
 /* media queries */
