@@ -167,15 +167,6 @@ section{
     text-decoration: underline;
 }
 
-footer{
-	border:1rem;
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-	background-color: var(--yellow);
-    text-align: center;
-}
-
 .footer .grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
@@ -190,7 +181,7 @@ footer{
 }
 
 .footer .grid .box img{
-    height: 5rem;
+    height: 10rem;
     margin-bottom: 1rem;
 }
 
@@ -212,17 +203,16 @@ footer{
     text-decoration: underline;
 }
 
-.footer .credit{
-   background-color: var(--black);
-   text-align: center;
-   padding:3rem 2rem;
-   font-size: 2rem;
-   color:var(--white);
-   /* padding-bottom: 10rem; */
+.credits{
+    padding: 2rem;
+    text-align: center;
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 2rem;
 }
 
-.footer .credit span{
-   color:var(--yellow);
+.credits span{
+    color: var(--yellow);
 }
 
 /* media queries */
